@@ -6,10 +6,7 @@ public class Main {
 
     // Creamos el objeto miCoche
         Coche miCoche = new Coche();
-    // Llamamos a la funcion 4 veces, para que devuelva que el coche tiene 4 puertas
-            miCoche.SumarPuertas();
-            miCoche.SumarPuertas();
-            miCoche.SumarPuertas();
+    // Llamamos a la funcion 1 vez, para sumar 1 puerta
             miCoche.SumarPuertas();
     // Devolvemos la solución en la consola
         System.out.println(miCoche.puertas);
