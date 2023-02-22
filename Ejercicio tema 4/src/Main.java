@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        // If
         int numeroIf = 1;
         if(numeroIf > 0){
             System.out.println("El número " + numeroIf + " es positivo.");
@@ -11,25 +12,27 @@ public class Main {
             System.out.println("El número es 0.");
         }
 
+        // While
         int numeroWhile = 0;
         while (numeroWhile < 3){
             numeroWhile++;
             System.out.println(numeroWhile);
         }
 
-        int numeroDo = 0;
+        // Do while
+        int numeroDo = 3;
         do {
             numeroDo++;
             System.out.println(numeroDo);
             break;
         }while (numeroDo < 3);
 
-        int numeroFor = 0;
-        for (; numeroFor < 3 ;){
-            numeroFor++;
-            System.out.println(numeroFor);
+        // For
+        for (int numeroFor = 0; numeroFor <= 3 ; numeroFor++){
+            System.out.println("El valor es: " + numeroFor);
         }
 
+        // Switch
         var estacion = "VERANO";
         switch (estacion){
             case "PRIMAVERA":
